@@ -35,7 +35,7 @@ module.exports = class Blacklist{
 
        var post_headers = { 
            headers : { 
-            'Y-Api-Key' : 'cd904454-ea6b-4910-9c17-41a97f24cf47'
+            'Y-Api-Key' : ''
            }
        }
 
