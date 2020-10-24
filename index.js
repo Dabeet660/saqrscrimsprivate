@@ -12,7 +12,7 @@ const CH = new CommandHandler({
 })
 
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://dabeet_new:dkd241105@cluster0.c0apr.mongodb.net/<dbname>?retryWrites=true&w=majority", {useUnifiedTopology: true,useNewUrlParser: true,});
+mongoose.connect("", {useUnifiedTopology: true,useNewUrlParser: true,});
 
 
 bot.once("ready", async () => {
@@ -37,7 +37,7 @@ bot.on("message",(message) => {
 
 })
 
-bot.login("NzE1NDQ2NTk4NzI1MDA5NDU5.Xs9VkQ.eCDmpsHqNSXygJps-ezv6_XRCgQ");
+bot.login("");
 
 
 
